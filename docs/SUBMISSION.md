@@ -20,3 +20,5 @@
 - 유지관리 화면: https://community.obsidian.md/account/plugins/second-brain-starter
 
 GitHub 게시, 커뮤니티 페이지 공개, 자동 검토와 앱 내 목록 반영은 별도 단계다. 현재 검토 상태는 커뮤니티 페이지의 Review 항목에서 확인할 수 있다.
+
+0.1.0 자동 검토는 Completed로 종료됐으며, 공개 점수는 Review: Satisfactory / Health: Excellent다. 세부 결과와 남은 개선 항목은 TESTING.md에 기록했다.
