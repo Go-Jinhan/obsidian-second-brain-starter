@@ -48,13 +48,13 @@ Resources의 번호와 주제별 서가는 *CMDS 지식 관리 방식*을 참고
 
 수동으로 설치하려면 공개된 릴리스에서 `main.js`, `manifest.json`, `styles.css`를 받아 `<볼트>/.obsidian/plugins/second-brain-starter/`에 넣으세요. Obsidian을 다시 불러오고 **설정 → 커뮤니티 플러그인**에서 **Second Brain Starter**를 켭니다. 직접 빌드하면 같은 세 파일이 `dist/second-brain-starter/`에 만들어집니다.
 
-커뮤니티 디렉터리에 공개된 뒤에는 **설정 → 커뮤니티 플러그인 → 탐색**에서 **Second Brain Starter**로 검색할 수 있습니다. GitHub에 릴리스만 올린 상태에서는 이 검색에 나타나지 않습니다.
+[커뮤니티 페이지](https://community.obsidian.md/plugins/second-brain-starter)에서 현재 검토 상태를 확인할 수 있습니다. 디렉터리 검토와 목록 반영이 끝나면 **설정 → 커뮤니티 플러그인 → 탐색**에서 **Second Brain Starter**로 검색하세요. GitHub에 릴리스만 올린 상태에서는 이 검색에 나타나지 않습니다.
 
 Obsidian 1.14.4 이상이 필요합니다. macOS의 Obsidian 1.15.0에서 확인했습니다. 여러 플랫폼에서 사용할 수 있는 Obsidian API로 구현했으며, 모바일 기기에서는 아직 확인하지 않았습니다.
 
 ## 참고 자료와 개발
 
-볼트 구성은 [Obsidian Second Brain Template](https://github.com/Go-Jinhan/obsidian-second-brain-template)을 바탕으로 합니다. 설계 안내에서 티아고 포르테의 『세컨드 브레인』과 『세컨드 브레인 2.0』, *제텔카스텐*, *CMDS*가 각각 어떤 역할을 하는지 설명하고 출처로 연결합니다. 예시에는 개인 기록을 사용하지 않았습니다.
+포함된 [설계 안내](<vault/10. Capture/_Second-Brain-Design.md>)에서 티아고 포르테의 『세컨드 브레인』과 『세컨드 브레인 2.0』, *제텔카스텐*, *CMDS*가 각각 어떤 역할을 하는지 설명하고 더 읽을 자료를 소개합니다. 예시에는 개인 기록을 사용하지 않았습니다.
 
 Node.js 22 이상에서 다음 명령으로 빌드합니다.
 

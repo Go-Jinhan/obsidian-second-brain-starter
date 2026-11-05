@@ -48,13 +48,13 @@ The plugin works offline. It makes no network requests, collects no telemetry, a
 
 For a manual installation, download `main.js`, `manifest.json`, and `styles.css` from a published release. Place the three files in `<vault>/.obsidian/plugins/second-brain-starter/`, reload Obsidian, and enable **Second Brain Starter** under **Settings → Community plugins**. A local build produces the same three files in `dist/second-brain-starter/`.
 
-Once the plugin has been published in the community directory, you can find **Second Brain Starter** in **Settings → Community plugins → Browse**. A GitHub release alone does not add it to that search.
+The [community listing](https://community.obsidian.md/plugins/second-brain-starter) shows the current review status. After directory review and list updates, search for **Second Brain Starter** in **Settings → Community plugins → Browse**. A GitHub release alone does not add it to that search.
 
 Requires Obsidian 1.14.4 or later. Tested on macOS with Obsidian 1.15.0. The implementation uses Obsidian’s cross-platform APIs; mobile has not yet been tested on a device.
 
 ## Sources and development
 
-The workspace is based on [Obsidian Second Brain Template](https://github.com/Go-Jinhan/obsidian-second-brain-template). Its design guide explains the influence of Tiago Forte’s *Building a Second Brain* and *The PARA Method*, *Zettelkasten*, and *CMDS*, and links to the sources. The included examples are fictional.
+The included [design guide](<vault/10. Capture/_Second-Brain-Design.en.md>) explains the influence of Tiago Forte’s *Building a Second Brain* and *The PARA Method*, *Zettelkasten*, and *CMDS*, with references for further reading. The included examples are fictional.
 
 Use Node.js 22 or later to build:
 
