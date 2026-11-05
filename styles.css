@@ -1,0 +1,5 @@
+.second-brain-starter-summary {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  overflow-wrap: anywhere;
+}

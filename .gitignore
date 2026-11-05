@@ -1,0 +1,8 @@
+node_modules/
+main.js
+dist/
+.test-vault/
+.DS_Store
+*.tsbuildinfo
+src/bundle.json
+.test-profile/

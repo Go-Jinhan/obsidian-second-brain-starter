@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-second-brain-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Set up a CODE, PARA, and Zettelkasten workspace and create notes in English or Korean.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/bundle.mjs && tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "package": "npm run check && npm test && npm run build",
+    "pretest": "node scripts/bundle.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "1.14.4",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "yaml": "^2.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+import './bundle.mjs';
+import { build } from 'esbuild';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const root = path.resolve(import.meta.dirname, '..');
+await build({ entryPoints: [path.join(root, 'src/main.ts')], outfile: path.join(root, 'main.js'), bundle: true, external: ['obsidian'], platform: 'browser', format: 'cjs', target: 'es2020', minify: false, sourcemap: false, legalComments: 'eof' });
+const output = path.join(root, 'dist/second-brain-starter');
+await fs.mkdir(output, { recursive: true });
+for (const name of ['main.js', 'manifest.json', 'styles.css']) await fs.copyFile(path.join(root, name), path.join(output, name));
+console.log('Release files created in dist/second-brain-starter');

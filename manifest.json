@@ -1,0 +1,10 @@
+{
+  "id": "second-brain-starter",
+  "name": "Second Brain Starter",
+  "version": "0.1.0",
+  "minAppVersion": "1.14.4",
+  "description": "Set up a CODE, PARA, and Zettelkasten workspace and create notes in English or Korean.",
+  "author": "Go-Jinhan",
+  "authorUrl": "https://github.com/Go-Jinhan",
+  "isDesktopOnly": false
+}
